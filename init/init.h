@@ -72,7 +72,7 @@ struct svcenvinfo {
 
 #define NR_SVC_SUPP_GIDS 12    /* twelve supplementary groups */
 
-#define COMMAND_RETRY_TIMEOUT 5
+#define COMMAND_RETRY_TIMEOUT 5000
 
 struct service {
         /* list of all services */
